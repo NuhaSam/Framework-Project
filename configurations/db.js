@@ -14,7 +14,6 @@ const dbConnection = (collection, cb) => {
 
 
 module.exports = dbConnection
-//فحص انه الاتصال ب database ناجح بنشغل هادا الملف وبنشوف اذا هيجلب البيانات اولا لا
 // dbConnection('users',async(db) => {
 // const user = await db.findOne();
 // console.log(user)
