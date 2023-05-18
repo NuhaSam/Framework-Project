@@ -8,6 +8,8 @@ message: null,
 })
 })
 
-app.get('/books',bookRouter)
+app.get('/books',bookRouter);
+app.use("/user", userRouter);
+
 
 }
